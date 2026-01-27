@@ -3,6 +3,7 @@
 import { type Language, translations } from '@/lib/translations';
 import { Button } from '@/components/ui/button';
 import { useEffect, useState } from 'react';
+import Image from 'next/image';
 
 interface HeaderProps {
   lang: Language;
@@ -26,11 +27,13 @@ export function Header({ lang, onLanguageChange }: HeaderProps) {
       scrolled ? 'bg-background/95 backdrop-blur-md border-b border-border/50' : ''
     }`}>
       <div className="container mx-auto px-6 py-3 flex items-center justify-between">
-        <a href="#" className={`font-serif text-2xl font-semibold tracking-tight transition-colors ${
-          scrolled ? 'text-foreground' : 'text-white'
-        }`}>
-          Maia Tango
-        </a>
+        <Image 
+          src={scrolled ? "/images/logo-horizontal-oscuro.png" : "/images/logo-horizontal.png"} 
+          alt="Maia Tango" 
+          width={150} 
+          height={50}
+          className="h-auto"
+        />
         
         <div className="flex items-center gap-4">
           <div className="flex items-center gap-1 text-sm">

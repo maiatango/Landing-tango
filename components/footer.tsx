@@ -2,6 +2,7 @@
 
 import { type Language, translations } from '@/lib/translations';
 import { Instagram, MessageCircle, Mail } from 'lucide-react';
+import Image from 'next/image';
 
 interface FooterProps {
   lang: Language;
@@ -16,9 +17,13 @@ export function Footer({ lang }: FooterProps) {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-12">
           {/* Logo */}
           <div>
-            <span className="font-serif text-2xl font-semibold tracking-tight">
-              Maia Tango
-            </span>
+            <Image 
+              src="/images/logo-horizontal.png" 
+              alt="Maia Tango" 
+              width={150} 
+              height={50}
+              className="h-auto"
+            />
           </div>
           
           {/* Contact */}
