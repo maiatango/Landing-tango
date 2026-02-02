@@ -13,23 +13,23 @@ export const translations = {
     },
     about: {
       title: 'El Arte del Tango',
-      text1: 'El tango no es solo baile. Es conexión, presencia y movimiento consciente.',
-      text2: 'Clases para quienes quieren empezar desde cero o profundizar su camino en el tango.',
+      text1: 'El Tango no es una danza más... es un vínculo cercano que entablamos con un otro, gracias a una escucha profunda que entrenamos',
+      text2: '',
     },
     classes: {
       title: 'Nuestras Clases',
       items: [
         {
-          title: 'Clases para principiantes',
-          description: 'Empezá desde cero con una base sólida.',
+          title: 'Clases para todos los niveles.',
+          description: 'Tanto si quieres tener un primer acercamiento al Tango, como sacarte dudas, ó simplemente profundizar en algo que te interese',
         },
         {
           title: 'Grupos reducidos',
-          description: 'Atención personalizada para cada pareja.',
+          description: 'Máximo 2 parejas. Para atender específicamente las necesidades de cada persona',
         },
         {
           title: 'Ambiente relajado',
-          description: 'Aprendé en un espacio cálido y acogedor.',
+          description: 'Aprendé en un ambiente tranquilo y acogedor',
         },
         {
           title: 'Clases en Buenos Aires',
@@ -61,23 +61,23 @@ export const translations = {
     },
     about: {
       title: 'The Art of Tango',
-      text1: 'Tango is not just a dance. It\'s connection, presence, and conscious movement.',
-      text2: 'Classes for those who want to start from scratch or deepen their tango journey.',
+      text1: 'Tango is not just another dance... it\'s a close bond we build with another, thanks to a deep listening we train.',
+      text2: '',
     },
     classes: {
       title: 'Our Classes',
       items: [
         {
-          title: 'Beginner classes',
-          description: 'Start from zero with a solid foundation.',
+          title: 'Classes for all levels.',
+          description: 'Whether you want a first approach to Tango, to get your questions answered, or simply go deeper into something that interests you.',
         },
         {
           title: 'Small groups',
-          description: 'Personalized attention for each couple.',
+          description: 'Maximum 2 couples. To specifically address each person\'s needs.',
         },
         {
           title: 'Relaxed atmosphere',
-          description: 'Learn in a warm and welcoming space.',
+          description: 'Learn in a calm and welcoming environment.',
         },
         {
           title: 'Classes in Buenos Aires',

@@ -23,17 +23,17 @@ export function Contact({ lang }: ContactProps) {
           </p>
         </div>
         
-        {/* Google Form Placeholder */}
-        <div className="max-w-2xl mx-auto mb-12">
-          <div className="aspect-[4/3] bg-muted border border-border flex items-center justify-center">
-            <iframe 
-              src="https://docs.google.com/forms/d/e/1FAIpQLSdExampleFormId/viewform?embedded=true"
+        {/* Google Form - responsive: 100% ancho en móvil, max 640px en desktop */}
+        <div className="w-full max-w-[640px] mx-auto mb-12">
+          <div className="w-full overflow-hidden rounded-lg border border-border bg-muted/30">
+            <iframe
+              src="https://docs.google.com/forms/d/e/1FAIpQLScJlbIu73L3FqzCzXf1Knq7mvDZM8Da1cSIoBH-LXT2-kYR7w/viewform?embedded=true"
               width="100%"
-              height="100%"
-              className="border-0"
-              title="Signup Form"
+              height="1172"
+              className="block border-0 w-full min-h-[1172px]"
+              title="Inscribite a las clases - Maia Tango"
             >
-              Loading form...
+              Cargando formulario…
             </iframe>
           </div>
         </div>

@@ -17,12 +17,16 @@ export function About({ lang }: AboutProps) {
             {t.about.title}
           </h2>
           <div className="space-y-6">
-            <p className="text-lg sm:text-xl text-muted-foreground leading-relaxed font-light">
-              {t.about.text1}
-            </p>
-            <p className="text-lg sm:text-xl text-muted-foreground leading-relaxed font-light">
-              {t.about.text2}
-            </p>
+            {t.about.text1 && (
+              <p className="text-lg sm:text-xl text-muted-foreground leading-relaxed font-light">
+                {t.about.text1}
+              </p>
+            )}
+            {t.about.text2 && (
+              <p className="text-lg sm:text-xl text-muted-foreground leading-relaxed font-light">
+                {t.about.text2}
+              </p>
+            )}
           </div>
         </div>
       </div>

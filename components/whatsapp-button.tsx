@@ -1,7 +1,7 @@
 'use client';
 
 import { type Language, translations } from '@/lib/translations';
-import { MessageCircle } from 'lucide-react';
+import Image from 'next/image';
 
 interface WhatsAppButtonProps {
   lang: Language;
@@ -25,8 +25,14 @@ export function WhatsAppButton({ lang }: WhatsAppButtonProps) {
         </span>
         
         {/* Button */}
-        <div className="w-14 h-14 bg-[#25D366] rounded-full flex items-center justify-center shadow-lg hover:scale-110 transition-transform">
-          <MessageCircle className="w-7 h-7 text-white" />
+        <div className="w-14 h-14 bg-[#25D366] rounded-full flex items-center justify-center shadow-lg hover:scale-110 transition-transform p-1.5">
+          <Image
+            src="/images/whatsapp-icon-blanco.png"
+            alt="WhatsApp"
+            width={48}
+            height={48}
+            className="w-12 h-12 object-contain"
+          />
         </div>
       </div>
     </a>

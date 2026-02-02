@@ -17,8 +17,8 @@ export function Hero({ lang }: HeroProps) {
       {/* Background Image */}
       <div className="absolute inset-0">
         <Image
-          src="/images/tango-hero.jpg"
-          alt="Tango dancers in Buenos Aires"
+          src="/images/chica_portada.png"
+          alt="Tango en Buenos Aires"
           fill
           className="object-cover grayscale"
           priority
